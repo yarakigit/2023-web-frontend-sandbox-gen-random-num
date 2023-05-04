@@ -1,0 +1,65 @@
+/* グローバルなスタイル */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+/* ボタンのスタイル */
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 0.25rem;
+    color: #fff;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    color: #fff;
+}
+
+/* 入力欄のスタイル */
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* 結果表示エリアのスタイル */
+.result {
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
